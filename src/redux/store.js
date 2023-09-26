@@ -4,6 +4,6 @@ import counter from "./Counter";
 export const store = configureStore({
   reducer: {
     counter,
-    student: "Student",
+    student: counter,
   },
 });
